@@ -12,7 +12,7 @@ The implement code of LLM4MSR. Take **STAR** as backbone model and **Amazon** da
 
 2. Download the [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b) model from hugging face and test by running the demo on it.
 
-3. Modify the original ource code of function of sample(beam=1) in 'lib/python3.9/site-packages/transformers/generation/utils' to output the last hidden state in order to get rid of **cuda out of memory** error.
+3. Modify the original source code of function of sample(beam=1) in 'lib/python3.9/site-packages/transformers/generation/utils' to output the last hidden state in order to get rid of **cuda out of memory** error.
 
 4. Combine the file 'amazon_user_prompt_part_1.csv' and 'amazon_user_prompt_part_2.csv' into 'amazon_user_prompt.csv' in dataset folder.
 
